@@ -1,0 +1,20 @@
+{
+  "name": "postcss-w-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "watch:scss": "postcss src/sass/style.scss -o src/dist/style.css -w",
+    "build:scss": "postcss src/sass/style.scss -o src/dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.70.0"
+  }
+}
